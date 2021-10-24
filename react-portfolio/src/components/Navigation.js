@@ -16,6 +16,9 @@ function Navigation() {
                     <li>
                         <a href="#contact">Contact Details</a>
                     </li>
+                    <li>
+                        <a href="#Resume">Resume</a>
+                    </li>
                 </ul>
             </nav>
         </div>
