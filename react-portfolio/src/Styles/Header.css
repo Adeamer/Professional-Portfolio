@@ -24,3 +24,9 @@ header {
     position: relative;
     right: 60px;
 }
+
+#Profile-Pic {
+    height: 150px;
+    border-radius: 50%;
+    padding-left: 10px;
+ }
