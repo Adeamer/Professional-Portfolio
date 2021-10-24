@@ -1,0 +1,26 @@
+:root {
+    --limegreen: rgb(27, 173, 112);
+    --font: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    --shadow: 10px 10px;
+}
+
+header {
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    background-color: var(--limegreen);
+    display: flex;
+    justify-content: space-between; 
+    background-size: cover;
+
+}
+
+#name {
+    font-family: var(--font);
+    font-size: 70px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    right: 60px;
+}
