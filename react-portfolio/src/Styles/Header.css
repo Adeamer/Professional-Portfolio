@@ -30,3 +30,9 @@ header {
     border-radius: 50%;
     padding-left: 10px;
  }
+
+ body {
+    background-color: lightgray;
+    margin: 0%;
+    padding: 0%
+}
