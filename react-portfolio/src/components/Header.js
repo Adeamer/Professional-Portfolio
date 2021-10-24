@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navigation from './Navigation';
+import AboutMe from './AboutMe';
 import Project from './Project';
 import Footer from './Footer';
 import '../Styles/Header.css';
@@ -14,6 +15,7 @@ function Header() {
                 <h1 id="name">Anthony Deamer</h1>
                 <Navigation/>
             </header>
+            <AboutMe/>
         </div>
     );
 }
