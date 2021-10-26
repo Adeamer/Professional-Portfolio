@@ -30,7 +30,7 @@ function Project () {
             </div>
             <p><a id="github-link4" href= "https://github.com/Adeamer/Week6-Weather-Dashboard">Click here for Git-Hub Repository</a></p>
         </div>
-    )
+    );
 }
 
 export default Project;
