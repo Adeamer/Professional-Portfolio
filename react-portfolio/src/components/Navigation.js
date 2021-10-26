@@ -1,23 +1,31 @@
 import React, { useState } from 'react';
 import '../Styles/Navigation.css';
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
 
     return (
         <div>
             <nav>
                 <ul class="Navigation" >
                     <li>
-                        <a href="#about-me"> About Me</a>
+                        <a href="#about-me"
+                        onClick={() => handlePageChange('AboutMe')}
+                        className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}> About Me</a>
                     </li>
                     <li>
-                        <a href="#Projects"> Projects</a>
+                        <a href="#Projects"
+                        onClick={() => handlePageChange('Projects')}
+                        className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}> Projects</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact Details</a>
+                        <a href="#contact"
+                        onClick={() => handlePageChange('Contact')}
+                        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact Details</a>
                     </li>
                     <li>
-                        <a href="#Resume">Resume</a>
+                        <a href="#Resume"
+                        onClick={() => handlePageChange('Resume')}
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
                     </li>
                 </ul>
             </nav>
