@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Navigation from './Navigation';
-import AboutMe from './AboutMe';
-import Project from './Project';
+import AboutMe from './pages/AboutMe';
+import Project from './pages/Project';
+import Resume from './pages/Resume';
 import Footer from './Footer';
 import '../Styles/Header.css';
 import ProfilePic from '../Images/Profile-Pic.jpg';
