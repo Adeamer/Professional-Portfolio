@@ -8,7 +8,7 @@ import '../Styles/Header.css';
 import ProfilePic from '../Images/Profile-Pic.jpg';
 
 function Header() {
-    const [currentPage, setCurrentPage] = useState('About-me');
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
@@ -26,7 +26,7 @@ function Header() {
 
     return (
         <div>
-            <header class="header">
+            <header className="header">
                 <img id="Profile-Pic" src={ProfilePic} alt="Profile Picture"/>
                 <h1 id="name">Anthony Deamer</h1>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
