@@ -1,0 +1,31 @@
+.resume-title {
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    width: 800px;
+}
+
+.resume-link {
+    position: relative;
+    left: 160px;
+}
+
+.front-end-title {
+    position: relative;
+    left: 160px;
+}
+
+.front-end-text {
+    position: relative;
+    left: 160px;
+}
+
+.back-end-title {
+    position: relative;
+    left: 160px;
+}
+
+.back-end-text {
+    position: relative;
+    left: 160px;
+}
