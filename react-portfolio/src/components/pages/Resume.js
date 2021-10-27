@@ -1,12 +1,13 @@
 import React from "react";
 import '../../Styles/Resume.css';
+import Pdf from '../../Images/Anthony Deamer- Resume.pdf'
 
 function Resume() {
 
     return (
         <div>
-            <h2 className='resume-title'>Preview My Resume Here:</h2>
-            <a className="list-inline-item" href="./Assets/Images/Anthony Deamer- Resume.pdf">Resume</a>
+            <h2 className='resume-title'>Resume and Technologies</h2>
+            <h3 className='resume-link'>View my resume here:<a href={Pdf} target='_blank'> Anthony Deamer's Resume</a></h3>
             <br></br>
             <h3 className='front-end-title'>Front End Technologies:</h3>
             <p className='front-end-text'>- HTML</p>
