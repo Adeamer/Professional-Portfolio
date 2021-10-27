@@ -22,5 +22,7 @@ function Resume() {
             <p className='back-end-text'>- MongoDB</p>
             <p className='back-end-text'>- Mongoose</p>
         </div>
-    )
+    );
 }
+
+export default Resume();
