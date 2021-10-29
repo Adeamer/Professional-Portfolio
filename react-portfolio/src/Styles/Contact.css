@@ -1,0 +1,12 @@
+.contact-title {
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    width: 800px;
+}
+
+form {
+    width: 55%;
+    padding: 5pc;
+    padding-left: 150px;
+}
