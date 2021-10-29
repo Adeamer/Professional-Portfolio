@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import AboutMe from './pages/AboutMe';
 import Project from './pages/Project';
 import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 import Footer from './Footer';
 import '../Styles/Header.css';
 import ProfilePic from '../Images/Profile-Pic.jpg';
@@ -19,6 +20,9 @@ function Header() {
         }
         if (currentPage === 'Resume') {
             return <Resume/>;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact/>;
         }
     }
 
