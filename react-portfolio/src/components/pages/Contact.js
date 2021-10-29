@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import '../../Styles/Contact.css';
 
 
-function Contact() {
+class Contactform extends Contact() {
     constructor(props){
         super(props);
         this.state = {
