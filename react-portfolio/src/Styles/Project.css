@@ -8,25 +8,25 @@
 #github-link1 {
     position: absolute;
     left: 200px;
-    top: 615px;
+    top: 510px;
 }
 
 #github-link2 {
     position: absolute;
     left: 580px;
-    top: 615px;
+    top: 510px;
 }
 
 #github-link3 {
     position: absolute;
     left: 960px;
-    top: 615px;
+    top: 510px;
 }
 
 #github-link4 {
     position: absolute;
     left: 200px;
-    top: 910px;
+    top: 835px;
 }
 
 #work-box1 {
@@ -90,7 +90,7 @@
     width: 350px;
     height: 250px;
     position: absolute;
-    top: 650px;
+    top: 580px;
     font-family: var(--font);
     text-align: center;
     color: cornsilk;
