@@ -7,6 +7,7 @@ function Resume() {
     return (
         <div>
             <h2 className='resume-title'>Resume and Technologies</h2>
+            <br></br>
             <h3 className='resume-link'>View my resume here:<a href={Pdf} target='_blank'> Anthony Deamer's Resume</a></h3>
             <br></br>
             <h3 className='front-end-title'>Front End Technologies:</h3>
