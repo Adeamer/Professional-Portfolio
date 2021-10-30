@@ -60,7 +60,7 @@ function Contact() {
                     </div>
                 )}
                 <br></br>
-                <button type="submit" value='Submit' className="btn btn-primary">Submit</button>
+                <button type="submit" value='Submit' className="btn btn-primary" onSubmit={handleSubmit}>Submit</button>
             </form>
         </div>
     );
