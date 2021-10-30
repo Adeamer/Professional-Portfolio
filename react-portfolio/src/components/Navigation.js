@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
     return (
         <div>
             <nav>
-                <ul class="Navigation" >
+                <ul className="Navigation" >
                     <li>
                         <a href="#about-me"
                         onClick={() => handlePageChange('AboutMe')}
