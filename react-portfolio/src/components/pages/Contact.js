@@ -40,7 +40,7 @@ function Contact() {
     return (
         <div>
             <h2 className='contact-title'>Contact Me</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div className="form-floating mb-3">
                     <textarea className="form-control" id="floatingInput" defaultValue={email} onChange={handleChange} ></textarea>
                     <label htmlFor="floatingInput">Email address</label>
