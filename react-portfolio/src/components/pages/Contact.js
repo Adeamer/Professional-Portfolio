@@ -12,29 +12,35 @@ function Contact() {
     const { email, name, message } = formState;
 
     function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
 
-            if (!isValid) {
-                setErrorMessage('Please enter valid email');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value })
+        if (inputType === 'email') {
+            setFormState(inputValue);
+        } else if (inputType === "name") {
+            setFormState(inputValue);
+        } else if (inputType === "message") {
+            setFormState(inputValue);
         }
     }
 
     function handleSubmit(e) {
         e.preventDefault();
+        const isValid = validateEmail(e.target.value);
+
+        if (!isValid) {
+            setErrorMessage('Please enter valid email');
+            return;
+        }
+
+        if (!email || !name || !message) {
+            setErrorMessage("Please fill in all the fields.")
+            return;
+        }
+
+        setFormState('');
+        setErrorMessage(`Thank you ${name}, I will be in touch shortly.`)
     }
 
     return (
@@ -45,7 +51,7 @@ function Contact() {
                     <textarea className="form-control" id="floatingInput" defaultValue={email} onChange={handleChange} ></textarea>
                     <label htmlFor="floatingInput">Email address</label>
                 </div>
-                <div class="form-floating">
+                <div className="form-floating">
                     <textarea className="form-control" id="floatingTextarea" defaultValue={name} onChange={handleChange} ></textarea>
                     <label htmlFor="floatingTextarea">Name</label>
                 </div>
