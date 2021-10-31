@@ -5,6 +5,10 @@
     width: 500px;
 }
 
+.project-container {
+    height: 100vh;
+}
+
 #github-link1 {
     position: absolute;
     left: 200px;
