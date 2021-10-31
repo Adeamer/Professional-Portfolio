@@ -30,6 +30,19 @@ function Project() {
                     <p><a id="work-link4" href="https://adeamer.github.io/Week6-Weather-Dashboard/"></a></p>
                 </div>
                 <p><a id="github-link4" href="https://github.com/Adeamer/Week6-Weather-Dashboard">Click here for Git-Hub Repository</a></p>
+
+                <div id="work-box5">
+                    <p>Workout Tracker</p>
+                    <p><a id="work-link5" href="https://week18-workout-tracker.herokuapp.com/"></a></p>
+                </div>
+                <p><a id="github-link5" href="https://github.com/Adeamer/Workout-Tracker">Click here for Git-Hub Repository</a></p>
+
+                <div id="work-box6">
+                    <p>Budget Tracker</p>
+                    <p><a id="work-link6" href="https://week19-budget-tracker.herokuapp.com/"></a></p>
+                </div>
+                <p><a id="github-link6" href="https://github.com/Adeamer/Online-Offline-Budget-Trackers">Click here for Git-Hub Repository</a></p>
+
                 <br></br>
                 <br></br>
             </div>
