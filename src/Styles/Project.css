@@ -33,6 +33,18 @@
     top: 835px;
 }
 
+#github-link5 {
+    position: absolute;
+    left: 580px;
+    top: 835px;
+}
+
+#github-link6 {
+    position: absolute;
+    left: 960px;
+    top: 835px;
+}
+
 #work-box1 {
     border:rgb(18, 52, 73) solid;
     border-radius: 10%;
@@ -106,6 +118,44 @@
 
 }
 
+#work-box5 {
+    border:rgb(18, 52, 73) solid;
+    border-radius: 10%;
+    left: 530px;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 580px;
+    font-family: var(--font);
+    text-align: center;
+    color: cornsilk;
+    font-size: 1.5em;
+    text-decoration: underline;
+    background-image: url("../Images/Workout-tracker-image.jpg");
+    background-size: 150%;
+    opacity: 0.5;
+
+}
+
+#work-box6 {
+    border:rgb(18, 52, 73) solid;
+    border-radius: 10%;
+    left: 910px;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 580px;
+    font-family: var(--font);
+    text-align: center;
+    color: cornsilk;
+    font-size: 1.5em;
+    text-decoration: underline;
+    background-image: url("../Images/Budget-tracker-image.jfif");
+    background-size: 110%;
+    opacity: 0.5;
+
+}
+
 #work-box1:hover {
     opacity: 1;
     box-shadow: var(--shadow) darkgray;
@@ -129,6 +179,20 @@
 }
 
 #work-box4:hover {
+    opacity: 1;
+    box-shadow: var(--shadow) darkgray;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#work-box5:hover {
+    opacity: 1;
+    box-shadow: var(--shadow) darkgray;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#work-box6:hover {
     opacity: 1;
     box-shadow: var(--shadow) darkgray;
     transform: scale(1.05);
@@ -175,6 +239,32 @@
 }
 
 #work-link4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+    background-color: white;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+#work-link5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+    background-color: white;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+#work-link6 {
     position: absolute;
     width: 100%;
     height: 100%;
