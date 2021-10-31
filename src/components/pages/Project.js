@@ -6,7 +6,7 @@ function Project() {
     return (
         <div>
             <h2 id="Work">Projects</h2>
-            <div>
+            <div className="project-container">
                 <div id="work-box1">
                     <p>Your Plant House!</p>
                     <p><a id="work-link1" href="https://project-2-your-plant-house.herokuapp.com/"></a></p>
