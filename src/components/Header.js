@@ -36,6 +36,9 @@ function Header() {
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
             </header>
             {renderPage()}
+            <div>
+            <Footer/>
+            </div>
         </div>
     );
 }
