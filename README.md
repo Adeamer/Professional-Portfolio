@@ -38,15 +38,15 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 ## Demo
 Please see the below demo of my portfolio:
 
-
+![Porfolio-gif](https://user-images.githubusercontent.com/83004232/139579932-41a5b0b4-162b-401a-af73-8680b39705f3.gif)
     
 
     
 ## Links
 
-Git-Hub Repository: 
+Git-Hub Repository: https://github.com/Adeamer/React-Portfolio
 
-Deployed App: 
+Deployed App: https://adeamer.github.io/React-Portfolio/
 
     
 
