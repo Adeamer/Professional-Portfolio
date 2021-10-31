@@ -35,7 +35,7 @@ function Project() {
                     <p>Workout Tracker</p>
                     <p><a id="work-link5" href="https://week18-workout-tracker.herokuapp.com/"></a></p>
                 </div>
-                <p><a id="github-link5" href="https://github.com/Adeamer/Workout-Tracker">Click here for Git-Hub Repository</a></p>
+                <p><a id="github-link5" href="https://github.com/Adeamer/Workout-Tracker" target="_blank">Click here for Git-Hub Repository</a></p>
 
                 <div id="work-box6">
                     <p>Budget Tracker</p>
