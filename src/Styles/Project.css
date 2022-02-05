@@ -57,7 +57,7 @@
     color: cornsilk;
     font-size: 1.5em;
     text-decoration: underline;
-    background-image: url("../Images/main-page-background.jpg");
+    background-image: url("../Images/crypto-1.jpg");
     background-size: 120%;
     opacity: 0.5;
 
@@ -93,7 +93,7 @@
     color: cornsilk;
     font-size: 1.5em;
     text-decoration: underline;
-    background-image: url("../Images/Day\ planner.jpeg");
+    background-image: url("../Images/main-page-background.jpg");
     background-size: 120%;
     opacity: 0.5;
 
@@ -112,7 +112,7 @@
     color: cornsilk;
     font-size: 1.5em;
     text-decoration: underline;
-    background-image: url("../Images/weather-dashboard.jfif");
+    background-image: url("../Images/Day\ planner.jpeg");
     background-size: 120%;
     opacity: 0.5;
 
@@ -131,7 +131,7 @@
     color: cornsilk;
     font-size: 1.5em;
     text-decoration: underline;
-    background-image: url("../Images/Workout-tracker-image.jpg");
+    background-image: url("../Images/weather-dashboard.jfif");
     background-size: 150%;
     opacity: 0.5;
 
@@ -150,7 +150,7 @@
     color: cornsilk;
     font-size: 1.5em;
     text-decoration: underline;
-    background-image: url("../Images/Budget-tracker-image.jfif");
+    background-image: url("../Images/Workout-tracker-image.jpg");
     background-size: 110%;
     opacity: 0.5;
 
