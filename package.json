@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://adeamer.github.io/Professional-Portfolio/",
+  "homepage": "https://adeamer.github.io/Professional-Portfolio/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
