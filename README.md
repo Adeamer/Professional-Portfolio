@@ -46,7 +46,7 @@ Please see the below demo of my portfolio:
 
 Git-Hub Repository: https://github.com/Adeamer/React-Portfolio
 
-Deployed App: https://adeamer.github.io/React-Portfolio/
+Deployed App: https://adeamer.github.io/professional-portfolio/
 
     
 
